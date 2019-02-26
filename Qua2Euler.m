@@ -1,4 +1,5 @@
 function euler=Qua2Euler(q0,q1,q2,q3)
+% X-pitch Y-roll Z-yaw
 n=sqrt(q0^2+q1^2+q2^2+q3^2);
 q0=q0/n;q1=q1/n;q2=q2/n;q3=q3/n;
 % euler=zeros(3,1);
